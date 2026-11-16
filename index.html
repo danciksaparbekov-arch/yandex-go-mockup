@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#FFFFFF" />
+  <link rel="icon" href="icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
   <title>Yandex Go — My rides and orders</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -651,37 +657,7 @@
 
             <!-- Driver 1 Avatar (Zhusukeyev Baktiyar Kumarbekovich - Blue Polo Shirt) -->
             <div class="driver-avatar-frame absolute right-1 top-0.5">
-              <svg width="100%" height="100%" viewBox="0 0 100 100" fill="none">
-                <!-- Soft indoor gray wall background -->
-                <rect width="100" height="100" fill="#B8BCC2"/>
-                <rect x="0" y="0" width="24" height="100" fill="#D6D8DC"/>
-                <!-- Subtle indoor plant stems on left -->
-                <path d="M10 92C12 76 9 64 5 54M14 92C16 78 18 68 21 60" stroke="#4D6B4A" stroke-width="1.6" stroke-linecap="round"/>
-                <!-- Royal blue collared polo shirt -->
-                <path d="M16 98C18 81 30 74 50 74C70 74 82 81 84 98H16Z" fill="#1565C0"/>
-                <!-- Polo collar -->
-                <path d="M36 74L44 86L50 81L38 72L36 74Z" fill="#1E88E5"/>
-                <path d="M64 74L56 86L50 81L62 72L64 74Z" fill="#1E88E5"/>
-                <!-- Neck -->
-                <path d="M41 64H59V78C59 81 55 83 50 83C45 83 41 81 41 78V64Z" fill="#C99474"/>
-                <!-- Ears -->
-                <ellipse cx="31.5" cy="46" rx="3.2" ry="6.5" fill="#C99474"/>
-                <ellipse cx="68.5" cy="46" rx="3.2" ry="6.5" fill="#C99474"/>
-                <!-- Face -->
-                <path d="M32 36C32 23 39.5 17 50 17C60.5 17 68 23 68 36V48C68 60 60 68 50 68C40 68 32 60 32 48V36Z" fill="#D8A484"/>
-                <!-- Subtle facial shading -->
-                <path d="M32 46C32 58 40 67 50 67C60 67 68 58 68 46C66 56 59 63 50 63C41 63 34 56 32 46Z" fill="#C48E6E" fill-opacity="0.45"/>
-                <!-- Short dark hair -->
-                <path d="M31.5 38C31 24 38 15 50 15C62 15 69 24 68.5 38C67.5 29 63 24 50 24C37 24 32.5 29 31.5 38Z" fill="#23201E"/>
-                <!-- Eyebrows & Eyes -->
-                <path d="M37 38.5C39.5 37.3 43 37.5 45.5 38.8" stroke="#23201E" stroke-width="2" stroke-linecap="round"/>
-                <path d="M54.5 38.8C57 37.5 60.5 37.3 63 38.5" stroke="#23201E" stroke-width="2" stroke-linecap="round"/>
-                <ellipse cx="41.5" cy="42.5" rx="2.3" ry="1.6" fill="#1F1D1B"/>
-                <ellipse cx="58.5" cy="42.5" rx="2.3" ry="1.6" fill="#1F1D1B"/>
-                <!-- Nose & Mouth -->
-                <path d="M50 42V51.5C50 52.5 48.2 53 47.2 52.5" stroke="#B37B5C" stroke-width="1.6" stroke-linecap="round"/>
-                <path d="M44 58.5C47.5 59.5 52.5 59.5 56 58.5" stroke="#9E624A" stroke-width="1.8" stroke-linecap="round"/>
-              </svg>
+              <img src="avatars/driver1.jpg" alt="Driver" class="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -995,36 +971,7 @@
 
             <!-- Driver 2 Avatar (Makhammat Uulu Kay·ym - White Cap & White Shirt) -->
             <div class="driver-avatar-frame absolute right-1 top-0.5">
-              <svg width="100%" height="100%" viewBox="0 0 100 100" fill="none">
-                <!-- Bright outdoor background with dark architectural columns -->
-                <rect width="100" height="100" fill="#DCE4EC"/>
-                <rect x="0" y="0" width="16" height="100" fill="#1E293B"/>
-                <rect x="84" y="0" width="16" height="100" fill="#1E293B"/>
-                <!-- White collared shirt -->
-                <path d="M14 98C16 80 29 73 50 73C71 73 84 80 86 98H14Z" fill="#F8FAFC"/>
-                <path d="M35 73L44 87L50 81L38 71L35 73Z" fill="#E2E8F0"/>
-                <path d="M65 73L56 87L50 81L62 71L65 73Z" fill="#E2E8F0"/>
-                <!-- Neck -->
-                <path d="M41 64H59V78C59 81 55 83 50 83C45 83 41 81 41 78V64Z" fill="#C89172"/>
-                <!-- Ears -->
-                <ellipse cx="31.5" cy="46" rx="3" ry="6" fill="#C89172"/>
-                <ellipse cx="68.5" cy="46" rx="3" ry="6" fill="#C89172"/>
-                <!-- Face -->
-                <path d="M32 36C32 23 39.5 17 50 17C60.5 17 68 23 68 36V48C68 60 60 68 50 68C40 68 32 60 32 48V36Z" fill="#D5A081"/>
-                <!-- White Baseball Cap -->
-                <path d="M31 32C31 19 39 12 50 12C61 12 69 19 69 32H31Z" fill="#FFFFFF"/>
-                <!-- Cap Visor/Brim -->
-                <path d="M29 31.5C35 28.5 65 28.5 71 31.5C66 34.8 34 34.8 29 31.5Z" fill="#E2E8F0"/>
-                <rect x="47" y="21" width="6" height="3" rx="1" fill="#CBD5E1"/>
-                <!-- Eyebrows & Eyes -->
-                <path d="M37 39C39.5 38 43 38.2 45.5 39.2" stroke="#292524" stroke-width="1.8" stroke-linecap="round"/>
-                <path d="M54.5 39.2C57 38.2 60.5 38 63 39" stroke="#292524" stroke-width="1.8" stroke-linecap="round"/>
-                <ellipse cx="41.5" cy="43" rx="2.2" ry="1.5" fill="#1C1917"/>
-                <ellipse cx="58.5" cy="43" rx="2.2" ry="1.5" fill="#1C1917"/>
-                <!-- Nose & Mouth -->
-                <path d="M50 42.5V51.5C50 52.5 48.2 53 47.2 52.5" stroke="#B27858" stroke-width="1.6" stroke-linecap="round"/>
-                <path d="M44.5 58.5C48 59.3 52 59.3 55.5 58.5" stroke="#9A6048" stroke-width="1.8" stroke-linecap="round"/>
-              </svg>
+              <img src="avatars/driver2.jpg" alt="Driver" class="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -1329,39 +1276,7 @@
 
             <!-- Driver 3 Avatar (Zhumabayev Erali - Goatee & Gray Collared Shirt in Car Interior) -->
             <div class="driver-avatar-frame absolute right-1 top-0.5">
-              <svg width="100%" height="100%" viewBox="0 0 100 100" fill="none">
-                <!-- Car interior cabin background -->
-                <rect width="100" height="100" fill="#A6ADB5"/>
-                <path d="M0 0H26L14 100H0V0Z" fill="#374151"/>
-                <path d="M100 0H76L88 100H100V0Z" fill="#4B5563"/>
-                <!-- Car headrest behind driver -->
-                <rect x="27" y="42" width="46" height="44" rx="14" fill="#333840"/>
-                <!-- Slate-blue/gray collared shirt -->
-                <path d="M15 98C17 80 30 73 50 73C70 73 83 80 85 98H15Z" fill="#64748B"/>
-                <path d="M35 73L44 87L50 81L38 71L35 73Z" fill="#7D8FA3"/>
-                <path d="M65 73L56 87L50 81L62 71L65 73Z" fill="#7D8FA3"/>
-                <!-- Neck -->
-                <path d="M41 64H59V78C59 81 55 83 50 83C45 83 41 81 41 78V64Z" fill="#C48F70"/>
-                <!-- Ears -->
-                <ellipse cx="31.5" cy="46" rx="3.2" ry="6.5" fill="#C48F70"/>
-                <ellipse cx="68.5" cy="46" rx="3.2" ry="6.5" fill="#C48F70"/>
-                <!-- Face -->
-                <path d="M32 36C32 23 39.5 17 50 17C60.5 17 68 23 68 36V48C68 60 60 68 50 68C40 68 32 60 32 48V36Z" fill="#D29E7F"/>
-                <!-- Short salt-and-pepper hair -->
-                <path d="M31.5 37C31 23 38 14.5 50 14.5C62 14.5 69 23 68.5 37C67.5 28 63 23 50 23C37 23 32.5 28 31.5 37Z" fill="#474442"/>
-                <!-- Eyebrows & Eyes -->
-                <path d="M37 38.5C39.5 37.5 43 37.7 45.5 38.8" stroke="#3B3836" stroke-width="1.9" stroke-linecap="round"/>
-                <path d="M54.5 38.8C57 37.7 60.5 37.5 63 38.5" stroke="#3B3836" stroke-width="1.9" stroke-linecap="round"/>
-                <ellipse cx="41.5" cy="42.5" rx="2.2" ry="1.5" fill="#1F1D1B"/>
-                <ellipse cx="58.5" cy="42.5" rx="2.2" ry="1.5" fill="#1F1D1B"/>
-                <!-- Nose -->
-                <path d="M50 42V51.5C50 52.5 48.2 53 47.2 52.5" stroke="#AD7556" stroke-width="1.6" stroke-linecap="round"/>
-                <!-- Graying Goatee & Chin Beard -->
-                <path d="M43 56C46.5 55 53.5 55 57 56" stroke="#6B7280" stroke-width="2" stroke-linecap="round"/>
-                <path d="M43 61.5C43 65.5 46 68 50 68C54 68 57 65.5 57 61.5C54 62.5 46 62.5 43 61.5Z" fill="#6B7280"/>
-                <!-- Mouth -->
-                <path d="M45 58.5C48 59.2 52 59.2 55 58.5" stroke="#8C5842" stroke-width="1.6" stroke-linecap="round"/>
-              </svg>
+              <img src="avatars/driver3.jpg" alt="Driver" class="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -1880,5 +1795,6 @@
       }
     });
   </script>
+<script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js').catch(() => {}); }</script>
 </body>
 </html>
